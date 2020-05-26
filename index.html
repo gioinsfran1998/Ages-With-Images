@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de edades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Edades con imagenes</h1>
+    </header>
+    <section>
+        <div>
+            <p>Año de Nacimiento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <p>Sexo:
+                <input type="radio" name="radiosex" id="mas" checked>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radiosex" id="fem">
+                <label for="fem">Femenino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Cargue los datos para ver el resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Ages Website</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
